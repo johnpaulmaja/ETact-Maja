@@ -15,10 +15,9 @@ $value = $list;
 
 
     <div class="navbar">
-        <a href="index.php?navigation=product">Show</a>
+        <a href="index.php?navigation=product">Products</a>
         <a href="index.php?navigation=categories">Category</a>
         <a href="index.php?navigation=create">Create</a>
-        <a href="index.php?navigation=delete">Delete</a>
     </div>
 
 <h1> Product Details </h1>
