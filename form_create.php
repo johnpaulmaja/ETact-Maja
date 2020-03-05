@@ -6,11 +6,15 @@
 ?>
 
 <form action="pro_create.php" method="POST">
+	<div class="box">
+		<div class="insidebox">
+			<div class="detail">
+				<div class="txtholder">
 <h1> Create Product </h1>
-<input type="text" name="name" placeholder="name"/>
-<input type="text" name="description" placeholder="description"/>
-<input type="text" name="price" placeholder="price"/>
-<select name="category">
+<input class="detail" type="text" name="name" placeholder="name"/>
+<input class="detail" type="text" name="description" placeholder="description"/>
+<input class="detail" type="text" name="price" placeholder="price"/>
+<select class="wew" name="category">
 <option value="">--Category--</option>
 	<?php
       foreach($category as $cview){
@@ -20,6 +24,6 @@
       }
     ?>
 	</select>
-<input type="submit" name="submit" value="submit"/>
+<input class="send" type="submit" name="submit" value="submit"/>
 
 </form>
