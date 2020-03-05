@@ -82,3 +82,57 @@
     background-color: #4CAF50;
     color: white;
   }
+
+.box{
+	 position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70%;
+  padding: 0 20px;
+  right: 13%;
+margin-left: auto;
+margin-right: auto;
+
+}
+.insidebox{
+display: flex;
+  max-width: 800px;
+margin: 0 auto;
+  background: rgba(0,0,0,0.8);
+  padding: 65px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.txtholder{
+	margin-top: -40px;
+	
+}
+
+.detail{
+	position: relative;
+	right: -23%;
+	top: -25%;
+	 margin: 0 auto;
+  background: transparent;
+  border: 0px;
+  padding: 12px;
+  color: #f1f1f1;
+  width: 70%;
+}
+
+.send{
+	    background: #000;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    color: #f1f1f1;
+    cursor: pointer;
+text-transform: uppercase;
+	 position: absolute;
+	 margin-left: -18%;
+	 margin-top: 60px;
+}
+.send:hover {
+  background-color: grey;
+}
